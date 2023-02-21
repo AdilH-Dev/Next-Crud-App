@@ -33,7 +33,7 @@ export default function Add() {
   return (
     <>
       <Head>
-        <title>ADD.</title>
+        <title>ADD</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {token.state && 
@@ -49,7 +49,7 @@ export default function Add() {
           <input type="email" onChange={data_change} id='email' value={data.email} name="email" required />
           <div className='bottom_btn'>
             <Link href="/home">
-              <button className='button back'>Back</button>
+              <button className='button back'>Back to home</button>
             </Link>
             <button type='submit' className="button">Add Employes</button>
           </div>
