@@ -33,7 +33,7 @@ export default function Add() {
   return (
     <>
       <Head>
-        <title>ADD</title>
+        <title>ADD.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {token.state && 
