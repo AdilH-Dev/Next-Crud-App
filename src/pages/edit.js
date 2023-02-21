@@ -42,7 +42,7 @@ export default function Edit() {
                         <label htmlFor="first">First Name :</label><br />
                         <input type="text" onChange={data_change} value={data?.first} name="first" required /><br />
 
-                        <label htmlFor="last">Last Name :</label><br />
+                        <label htmlFor="last">Last Names :</label><br />
                         <input type="text" onChange={data_change} value={data?.last} name="last" required /><br />
 
                         <label htmlFor="email">Email :</label><br />
